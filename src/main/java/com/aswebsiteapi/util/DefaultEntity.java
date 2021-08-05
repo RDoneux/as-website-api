@@ -20,7 +20,7 @@ public class DefaultEntity {
     @CreationTimestamp
     private OffsetDateTime createdAt;
 
-    @Column(name = "udpated_at", nullable = false)
+    @Column(name = "updated_at", nullable = false)
     @UpdateTimestamp
     private OffsetDateTime updatedAt;
 
