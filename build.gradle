@@ -41,6 +41,9 @@ dependencies {
     testImplementation('io.rest-assured:json-path:4.2.0')
     testImplementation('io.rest-assured:xml-path:4.2.0')
 
+    // For Health/Readiness Actuators
+    implementation 'org.springframework.boot:spring-boot-starter-actuator'
+
 }
 flyway {
     url = 'jdbc:postgresql://localhost:5432/java_component'
